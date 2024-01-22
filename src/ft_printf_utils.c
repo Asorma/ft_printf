@@ -6,12 +6,11 @@
 /*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 15:37:55 by sould             #+#    #+#             */
-/*   Updated: 2023/10/18 19:50:50 by codespace        ###   ########.fr       */
+/*   Updated: 2024/01/22 14:24:15 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/libftprintf.h"
-
 
 void	ft_putstr(char *str)
 {

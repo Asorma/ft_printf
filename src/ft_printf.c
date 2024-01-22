@@ -6,7 +6,7 @@
 /*   By: ade-orma <ade-orma@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/01 19:56:56 by ade-orma          #+#    #+#             */
-/*   Updated: 2024/01/01 20:02:25 by ade-orma         ###   ########.fr       */
+/*   Updated: 2024/01/22 14:19:40 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,8 +63,10 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (print_length);
 }
-int main()
+/*
+int	main()
 {
 	ft_printf("Hello World!\n");
 	return 0;
 }
+*/

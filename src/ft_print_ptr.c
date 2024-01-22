@@ -6,12 +6,11 @@
 /*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 15:37:43 by sould             #+#    #+#             */
-/*   Updated: 2023/10/18 19:52:04 by codespace        ###   ########.fr       */
+/*   Updated: 2024/01/22 14:16:46 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/libftprintf.h"
-
 
 int	ft_ptr_len(uintptr_t num)
 {

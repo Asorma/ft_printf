@@ -6,13 +6,13 @@
 /*   By: ade-orma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/01 13:15:30 by ade-orma          #+#    #+#             */
-/*   Updated: 2023/01/01 13:18:21 by ade-orma         ###   ########.fr       */
+/*   Updated: 2024/01/22 14:08:46 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int  ft_puthex_fd(uintptr_t ptr, const char format, int fd, int flag)
+int	ft_puthex_fd(uintptr_t ptr, const char format, int fd, int flag)
 {
 	int	i;
 

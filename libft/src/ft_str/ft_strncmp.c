@@ -6,7 +6,7 @@
 /*   By: ade-orma <ade-orma@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 10:28:22 by ade-orma          #+#    #+#             */
-/*   Updated: 2023/02/11 17:22:47 by ade-orma         ###   ########.fr       */
+/*   Updated: 2024/01/22 14:14:15 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,4 @@ int	ft_strncmp(const char *s1, const char *s2, size_t nBytes)
 		s2++;
 	}
 	return (*(unsigned char *)s1 - *(unsigned char *)s2);
-}	
+}

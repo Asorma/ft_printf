@@ -6,7 +6,7 @@
 /*   By: ade-orma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 13:15:30 by ade-orma          #+#    #+#             */
-/*   Updated: 2023/02/12 13:18:21 by ade-orma         ###   ########.fr       */
+/*   Updated: 2024/01/22 14:39:24 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@
 #include <unistd.h>
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+int	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
+	return (1);
 }

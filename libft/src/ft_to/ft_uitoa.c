@@ -6,10 +6,9 @@
 /*   By: ade-orma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 13:15:30 by ade-orma          #+#    #+#             */
-/*   Updated: 2023/02/12 13:18:21 by ade-orma         ###   ########.fr       */
+/*   Updated: 2024/01/22 14:15:19 by ade-orma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 
@@ -26,7 +25,7 @@ char	*ft_uitoa(unsigned int n)
 	while (n != 0)
 	{
 		ptr[length - 1] = n % 10 + '0';
-		n = n/10;
+		n = n / 10;
 		len--;
 	}
 	return (ptr);
